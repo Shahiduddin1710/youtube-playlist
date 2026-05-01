@@ -1,0 +1,18 @@
+# Backend sensitive
+backend/client_secrets.json
+backend/token.json
+
+# Python cache
+backend/__pycache__/
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Env files
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
