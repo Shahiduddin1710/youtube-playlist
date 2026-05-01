@@ -311,7 +311,6 @@ Returns `{ "status": "ok" }`. Used to verify the backend is running.
 | Limitation | Detail |
 |---|---|
 | YouTube API Quota | The YouTube Data API v3 has a daily quota of 10,000 units. Each video insertion costs approximately 50 units. Quota resets at midnight Pacific Time. |
-| Render Free Tier | The free tier on Render sleeps after 15 minutes of inactivity. The first request after sleep takes approximately 30 seconds to respond. |
 | OAuth on Server | The OAuth flow requires a browser for initial authorization. On a server, credentials must be pre-generated locally and supplied as environment variables. |
 | Private Videos | Private and deleted videos in the source playlist are automatically skipped and not counted toward the index range. |
 
@@ -325,6 +324,6 @@ Returns `{ "status": "ok" }`. Used to verify the backend is running.
 
 <div align="center">
 
-Built with the YouTube Data API v3 · Flask · React · Vite
+Built by Shaho
 
 </div>
